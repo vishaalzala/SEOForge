@@ -14,6 +14,10 @@ description: "Use when the user needs product, category, variant or faceted-navi
 3. Check product structured data against visible price, currency, availability and genuine reviews. Separate merchant feed checks from on-page checks.
 
 4. Provide template-level changes and tests covering in-stock, out-of-stock, variants and filter combinations.
+## Faceted navigation and crawl controls
+
+Map filter combinations, URLs and search demand before choosing indexability, canonical or robots rules. Test representative permutations and their internal links rather than applying one rule to every filter.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

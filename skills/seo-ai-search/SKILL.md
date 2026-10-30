@@ -14,6 +14,10 @@ description: "Use when the user needs AI search visibility, answer engines or AI
 3. Prioritise standard SEO and useful, verifiable content. Treat llms.txt, agent discovery files and emerging protocols as optional experiments rather than proven ranking requirements.
 
 4. Report crawler-policy consequences and measured evidence separately from hypotheses. Do not promise AI citations or recommend fabricated mentions.
+## Entity consistency and bot evidence
+
+Check consistent organisation, product and author identity in visible content and schema. Use official crawler documentation for user-agent policies; server log visits support fetch claims only, not citation claims.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

@@ -14,6 +14,10 @@ description: "Use when the user needs competitor SEO comparisons or backlink pro
 3. Prioritise editorially useful link opportunities and content gaps. Do not fabricate authority metrics or label links toxic from a single heuristic.
 
 4. Provide a comparison matrix and realistic actions. Disavow advice requires strong evidence and current official guidance; do not automate outreach.
+## Link recovery and digital PR
+
+Use supplied backlink exports to identify broken or lost editorial links and relevant referring pages. Recommend useful resources and legitimate outreach opportunities without fabricating contacts, endorsements or link quality scores.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

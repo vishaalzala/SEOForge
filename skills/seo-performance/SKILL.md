@@ -14,6 +14,10 @@ description: "Use when the user needs page speed, Lighthouse, PageSpeed or Core 
 3. Use measured bottlenecks to prioritise image delivery, render blocking resources, JavaScript, fonts, layout stability and server response work.
 
 4. Give targeted implementation advice and repeat comparable measurements after changes. Do not infer a numeric performance score from visual inspection.
+## Mobile experience
+
+Measure mobile and desktop separately when possible. Inspect viewport, tap targets and layout using an available browser, while keeping usability findings distinct from measured Core Web Vitals.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

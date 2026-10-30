@@ -14,6 +14,10 @@ description: "Use when the user needs crawlability, indexing, redirects, canonic
 3. Compare source HTML with rendered content if browser tools are available. Flag important content or links that cannot be verified in the available representation.
 
 4. Propose the smallest fix and verify status, canonical, directives and rendered content afterwards. Label site-search results as discovery clues rather than proof of index coverage.
+## JavaScript, mobile and accessibility
+
+Compare raw HTML with rendered DOM for essential content, links, canonical and structured data. Check mobile parity, viewport and intrusive elements with browser evidence. Inspect semantic navigation, labels and keyboard access; treat accessibility findings as direct usability issues, not invented ranking factors.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

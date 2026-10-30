@@ -14,6 +14,10 @@ description: "Use when the user needs content quality, expertise, trust, duplica
 3. For sensitive topics, require appropriate primary sourcing and expert review. Never invent credentials, customer stories, testimonials or business facts.
 
 4. Return specific editorial changes and a fact-check list. Describe trust assessments as editorial judgements, not a Google E-E-A-T score.
+## Content decay and pruning
+
+Use comparable Search Console page and query periods when available. Classify keep, refresh, merge or retire by intent, traffic trend and unique value; account for seasonality. Preserve redirects when consolidating valuable URLs.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

@@ -14,6 +14,10 @@ description: "Use when the user needs titles, descriptions, headings, URL struct
 3. Check anchor text, navigation, orphan-page evidence and broken destinations from available crawl data. Recommend contextual links with specific source and target URLs.
 
 4. Provide before/after suggestions and flag URL changes that require a redirect and migration review.
+## Internal linking
+
+Use a supplied crawl graph or discovered URLs to identify orphan pages, click depth and poor anchor text. Return specific source-to-target link recommendations. Do not infer orphan status from a small page sample.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

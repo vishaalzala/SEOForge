@@ -5,7 +5,7 @@ from validate_package import ROOT, validate
 
 if __name__ == '__main__':
     validate()
-    dest = ROOT/'dist'/'seoforge-0.1.0-plugin.zip'
+    dest = ROOT/'dist'/'seoforge-0.2.0-plugin.zip'
     dest.parent.mkdir(exist_ok=True)
     paths = [ROOT/'plugin.json']
     for folder in ('skills','assets'):
@@ -18,5 +18,5 @@ if __name__ == '__main__':
     with zipfile.ZipFile(dest) as z:
         assert z.testzip() is None
         assert 'plugin.json' in z.namelist()
-        assert len([n for n in z.namelist() if n.endswith('/SKILL.md')]) == 20
+        assert len([n for n in z.namelist() if n.endswith('/SKILL.md')]) == 32
     print(dest)

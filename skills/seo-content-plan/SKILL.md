@@ -14,6 +14,10 @@ description: "Use when the user needs content briefs, editorial calendars, compa
 3. For templates or location pages, require meaningful page-specific information and a useful reason for every page. Avoid doorway pages and mass low-value generation.
 
 4. Deliver a prioritised calendar or brief. Identify owner-supplied facts and review needs; do not publish or schedule content unless requested.
+## Programmatic page gates
+
+Validate input datasets, template uniqueness and useful per-page information. Sample edge cases and evaluate duplication, empty results and indexing policy before scaling. Do not propose mass publication without clear distinct value.
+
 ## Evidence and execution rules
 
 - Use only tools actually available in this session. This package supplies instructions, not API credentials, a crawler service or a browser. If a check cannot run, mark it **not checked** and explain what evidence is needed.

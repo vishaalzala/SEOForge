@@ -15,4 +15,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: seoforge-plugin
-          path: dist/seoforge-0.1.0-plugin.zip
+          path: dist/seoforge-0.2.0-plugin.zip

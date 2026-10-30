@@ -27,4 +27,17 @@ Identify the requested outcome from the user's prompt and available evidence. If
 - `seo-github`: SEO Code Implementation.
 - `seo-reporting`: SEO Reports.
 
+- `seo-search-console`: Use for Search Console exports or authorised property data, indexing, URL Inspection, CTR and query opportunities.
+- `seo-traffic-diagnosis`: Use for unexplained SEO traffic drops, ranking declines or algorithm-update concerns.
+- `seo-analytics-tracking`: Use for auditing GA4 or other website analytics setup and organic search measurement.
+- `seo-conversion-tracking`: Use to implement or diagnose form, booking, signup or purchase measurement tied to organic search.
+- `seo-site-architecture`: Use when planning site hierarchy, navigation, URL taxonomy or topic hubs before launch or a restructure.
+- `seo-log-analysis`: Use for search or AI crawler behaviour in Apache, Nginx or CDN access logs.
+- `seo-serp-analysis`: Use for current search results, search intent, SERP features and competing page formats.
+- `seo-experiments`: Use to design and evaluate controlled SEO changes and template-wide tests.
+- `seo-foundation`: Use to establish reusable business, audience and SEO context for a project.
+- `seo-content-writing`: Use to draft complete SEO pages or refresh existing page copy.
+- `seo-news-discover`: Use for news, publishing, Google Discover or fast-changing editorial sites.
+- `seo-bing`: Use for Bing Webmaster Tools exports, Bing indexing or IndexNow planning.
+
 Use the specialised skill's evidence rules. Do not claim that unavailable connectors, browsers or APIs exist. If live access is missing, work from uploaded HTML, crawl exports, analytics files or repository source and state the limits. No mandatory external service or subagent runtime is required. The package does not install services or run background tasks.
