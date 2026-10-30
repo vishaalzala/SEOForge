@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEOForge finding",
+  "type": "object",
+  "required": [
+    "id",
+    "status",
+    "target",
+    "observation",
+    "evidence",
+    "priority",
+    "confidence",
+    "fix",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "string"
+    },
+    "fix": {
+      "type": "string"
+    },
+    "verification": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "collected_at"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "collected_at": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "confirmed",
+        "suspected",
+        "passed",
+        "not_checked"
+      ]
+    },
+    "priority": {
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low",
+        "info"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  }
+}

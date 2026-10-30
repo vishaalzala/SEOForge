@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "seoforge",
+  "version": "0.1.0",
+  "description": "Evidence-based SEO audits, content planning and implementation workflows.",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "technical-seo",
+    "content",
+    "structured-data",
+    "local-seo"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SEOForge",
+        "shortDescription": "SEO audits and practical fixes",
+        "longDescription": "Skills for evidence-based website audits, technical SEO, content planning, structured data and source-code fixes. Available tools and supplied data determine which checks can be performed.",
+        "capabilities": [],
+        "defaultPrompt": "Audit my website for SEO and give me a prioritised action plan with evidence."
+      }
+    }
+  }
+}
