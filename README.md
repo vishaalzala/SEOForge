@@ -134,8 +134,8 @@ python scripts/package.py
 
 The automated checks cover the manifest, skill structure, archive and offline HTML helper. [Evaluation scenarios](docs/EVALUATION.md) cover expected agent behaviour; they are scenarios to run, not claims of completed live audits. CI produces a skills-only archive. See the [v0.2 implementation plan](docs/ROADMAP.md).
 
-## Inspiration, author and licence
+## Author and licence
 
-SEOForge takes inspiration from the modular approach in [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) and a review of other public SEO skill packages. Its skills and artwork were written for this project; the other projects' code, prompts and visual assets are not bundled. Inspiration does not imply affiliation or endorsement.
+SEOForge is created and maintained by Vishaal Zala. Its skills and artwork were written for this project.
 
 **Vishaal Zala** · [MIT License](LICENSE) · Copyright © 2026 Vishaal Zala.
